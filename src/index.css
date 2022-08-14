@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.img-part {
+  display: inline-block;
+  position: absolute;
+}
+
+.txt-part {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 200px;
+}
+
+.inline {
+  margin-bottom: 70px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5px;
+  }
+
+  .desc {
+    max-width: 200px;
+  }
+} */
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.navbar--trav {
+  background-color: #F55A5A;
+  padding: 20px;
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-size: 15;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-solid {
+  padding-right: 8px;
+}
+
+.card1 {
+  width: 126px;
+  height: 168px;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.country {
+  display: inline;
+  padding-right: 10px;
+  font-size: 11px;
+  color: #2B283A;
+}
+
+.goog-map {
+  font-size: 11px;
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.fa-location-dot {
+  color: #F55A5A;
+}
+
+
+.start-date, .to, .end-date {
+  display: inline;
+  font-size: 10px;
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.desc {
+  max-width: 300px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #2B283A;
+}
+
+h1 {
+  font-size: 25px;
+  color: #2B283A;
+  margin-bottom: 10px;
+}
